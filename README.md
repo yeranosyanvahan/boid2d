@@ -101,9 +101,6 @@ where:
   - AirMolarMass [ $M_\text{air}$ ] = 28.97 g/mol
   - GravitationalPull [ $g$ ] = 9.81 m/s²
 
-
-## Assumptions of the Model
-
 ## Assumptions of the Model
 
 ### 1. Dry Atmosphere
