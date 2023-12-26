@@ -3,11 +3,24 @@
 ## Introduction
 This Python-based project offers a dynamic and interactive simulation of bird-like entities, known as "boids", in a virtual atmospheric environment. The simulation showcases the behavior of individual boids as well as their interactions in a group.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Demonstrations](#demonstrations)
+- [Forces](#forces)
+  - [Flap](#flap)
+- [Atmosphere](#atmosphere)
+- [Constants and Properties](#constants-and-properties-in-the-simulation)
+- [Assumptions of the Model](#assumptions-of-the-model)
+- [Contributing](#contributing)
+- [Bug Reporting](#bug-reporting)
+- [License](#license)
+
 ## Demonstrations
 NOTE: In the simulation:
 - The drag force and the velocity of the boid is represented in  <span style="color:red;">red</span>.
 - The lift force is represented in  <span style="color:green;">green</span>.
 - The gravity force is represented in <span style="color:gray;">black</span>.
+- A change in the boid's color indicates that it has executed a flap.
 
 
 **[Single Boid Simulation](./amt/singleboid.mp4)**: Observe the behavior of a single boid navigating through the atmosphere.  
@@ -89,6 +102,28 @@ where:
   - GravitationalPull [ $g$ ] = 9.81 m/s²
 
 
+## Assumptions of the Model
+
+### 1. Dry Atmosphere
+The model closely follows the dry adiabatic lapse rate for temperature, hence the pressure, and density are calculated accordingly. It assumes an atmosphere comprised solely of air, without water vapor. Although this assumption slightly deviates from reality, it generally maintains the correct order of magnitude for these parameters.
+
+### 2. Subsonic Speeds Within Specific Range
+Air speeds ranging from 3 to 50 meters per second are assumed, falling within the subsonic category. Within this range, Lift-Induced drag is predominant, while parasite drag is less significant. The primary way for lift generation relies on adjusting the angle of attack.
+
+### 3. No Inter-Boid Interaction
+In this simulation, boids operate independently without any interaction or influence from other boids.
+
+
+## Assumptions of the model
+
+1. Dry atmosphere
+ When the temperature lapse rate is calculated, it will closely follow the dry adiabatic lapse rate. This holds true for temperature, pressure and density. It assumes that the atmosphere consists only with air, no water molecules. This assumption does deviate from the actual numbers, but the order of magniute is generally preserved.
+
+2. Relatively slow subsonic speeds
+ This model assumes air speed from 3 to 50 meters per second. This is in the range, where Lift-Induced drag is the most significant drag and the parasite drag is not significant. The main way to generate lift is through correcting the angle of attack
+
+3. No interaction
+ The boids do not interact with each other at all.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
