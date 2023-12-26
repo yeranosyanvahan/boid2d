@@ -104,26 +104,17 @@ where:
 
 ## Assumptions of the Model
 
-### 1. Dry Atmosphere
-The model closely follows the dry adiabatic lapse rate for temperature, hence the pressure, and density are calculated accordingly. It assumes an atmosphere comprised solely of air, without water vapor. Although this assumption slightly deviates from reality, it generally maintains the correct order of magnitude for these parameters.
+## Assumptions of the Model
 
-### 2. Subsonic Speeds Within Specific Range
-Air speeds ranging from 3 to 50 meters per second are assumed, falling within the subsonic category. Within this range, Lift-Induced drag is predominant, while parasite drag is less significant. The primary way for lift generation relies on adjusting the angle of attack.
+### 1. Dry Atmosphere
+The model assumes a dry atmospheric condition, closely following the dry adiabatic lapse rate for temperature, pressure, and density calculations. This simplification presumes an atmosphere consisting solely of air without water vapor. Although this deviates slightly from real-world data, it maintains a correct order of magnitude for these parameters.
+
+### 2. Relatively Slow Subsonic Speeds
+The simulation operates within air speeds of 3 to 50 meters per second. In this range, Lift-Induced drag is significant while parasite drag is minimal. The model focuses on generating lift primarily through adjusting the angle of attack.
 
 ### 3. No Inter-Boid Interaction
-In this simulation, boids operate independently without any interaction or influence from other boids.
+The boids in this simulation function independently, without any interactions or influences from other boids.
 
-
-## Assumptions of the model
-
-1. Dry atmosphere
- When the temperature lapse rate is calculated, it will closely follow the dry adiabatic lapse rate. This holds true for temperature, pressure and density. It assumes that the atmosphere consists only with air, no water molecules. This assumption does deviate from the actual numbers, but the order of magniute is generally preserved.
-
-2. Relatively slow subsonic speeds
- This model assumes air speed from 3 to 50 meters per second. This is in the range, where Lift-Induced drag is the most significant drag and the parasite drag is not significant. The main way to generate lift is through correcting the angle of attack
-
-3. No interaction
- The boids do not interact with each other at all.
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
