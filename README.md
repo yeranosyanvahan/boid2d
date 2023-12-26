@@ -7,12 +7,13 @@ A Python project that simulates the bird in the at
 ### [Single Boid Simulation](./amt/singleboid.mp4)
 
 
-https://github.com/yeranosyanvahan/boid2d/assets/69711561/910e1a0d-60fd-41d7-9a07-444a43422b20
+https://github.com/yeranosyanvahan/boid2d/assets/69711561/b8fde911-0927-417d-b17f-94f823660ec4
 
 
 ### [Many Boids Simulation](./amt/manyboids.mp4)
 
-https://github.com/yeranosyanvahan/boid2d/assets/69711561/e6296b19-b755-449a-ac65-f3a09d81ecdf
+
+https://github.com/yeranosyanvahan/boid2d/assets/69711561/79c4c16b-47b0-4520-9d49-149238cd27ac
 
 
 ## Files Structure
