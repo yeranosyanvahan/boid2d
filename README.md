@@ -7,8 +7,8 @@ This Python-based project offers a dynamic and interactive simulation of bird-li
 In this project, four fundamental forces are simulated to mimic the realistic movement of boids:
 
 - **Drag**: The resistance force experienced by a boid moving through the air. It is calculated as:
-  \( F_{\text{drag}} = \frac{1}{2} \rho v^2 C_d A \)
-  where \( \rho \) is the air density, \( v \) is the velocity of the boid, \( C_d \) is the drag coefficient, and \( A \) is the frontal area.
+  $$\( F_{\text{drag}} = \frac{1}{2} \rho v^2 C_d A \)
+  where \( \rho \) is the air density, \( v \) is the velocity of the boid, \( C_d \) is the drag coefficient, and \( A \) is the frontal area.$$
 
 - **Lift**: The upward force enabling the boid to counteract gravity. It is given by:
   \( F_{\text{lift}} = C_l \frac{1}{2} \rho v^2 A \)
