@@ -7,7 +7,9 @@ This Python-based project offers a dynamic and interactive simulation of bird-li
 In this project, three fundamental forces are simulated to mimic the realistic movement of boids. Those equations are:
 
   $$ F_{\text{drag}} = \frac{1}{2} \rho v^2 A_{\text{drag}} $$
+
   $$ F_{\text{lift}} = R_{\text{LTD}} F_{\text{drag}}  $$
+  
   $$ F_{\text{gravity}} = m \cdot g $$
 
   where:
