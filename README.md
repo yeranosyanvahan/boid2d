@@ -74,19 +74,19 @@ where:
 
 ### Boid properties
 - LTDRatio [ $R_{\text{LTD}}$ ] = 15
-- DragArea [$A_{\text{drag}}$] = 50 cm²
-- Mass [$m$] = 1 kg
-- FlapEnergy [$E_{\text{flap}}$] = 10 J
+- DragArea [ $A_{\text{drag}}$ ] = 50 cm²
+- Mass [ $m$ ] = 1 kg
+- FlapEnergy [ $E_{\text{flap}}$ ] = 10 J
 - MaxFlapsPerSecond = 3 
 
 ### Atmosphere properties
-- SeaLevelAirDensity [$\rho_0$] = 1.225 kg/m³
-- SeaLevelAirPressure [$P_0$] = 101.325 kPa
-- SeaLevelAirTemperature [$T_0$] = 15 °C
-- AirAdiabaticIndex [$\gamma$] = 1.4
-- AtmosphereHeight [$h_0$] = 30 km
-- AirMolarMass [$M_\text{air}$] = 28.97 g/mol
-- GravitationalPull [$g$] = 9.81 m/s²
+- SeaLevelAirDensity [ $\rho_0$ ] = 1.225 kg/m³
+- SeaLevelAirPressure [ $P_0$ ] = 101.325 kPa
+- SeaLevelAirTemperature [ $T_0$ ] = 15 °C
+- AirAdiabaticIndex [ $\gamma$ ] = 1.4
+- AtmosphereHeight [ $h_0$ ] = 30 km
+- AirMolarMass [ $M_\text{air}$ ] = 28.97 g/mol
+- GravitationalPull [ $g$ ] = 9.81 m/s²
 
 
 
