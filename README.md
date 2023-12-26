@@ -72,21 +72,21 @@ where:
 
 ## Constants and Properties in the Simulation
 
-### Boid properties
-- LTDRatio [ $R_{\text{LTD}}$ ] = 15
-- DragArea [ $A_{\text{drag}}$ ] = 50 cm²
-- Mass [ $m$ ] = 1 kg
-- FlapEnergy [ $E_{\text{flap}}$ ] = 10 J
-- MaxFlapsPerSecond = 3 
+- ### Boid properties
+  - LTDRatio [ $R_{\text{LTD}}$ ] = 15
+  - DragArea [ $A_{\text{drag}}$ ] = 50 cm²
+  - Mass [ $m$ ] = 1 kg
+  - FlapEnergy [ $E_{\text{flap}}$ ] = 10 J
+  - MaxFlapsPerSecond = 3 
 
-### Atmosphere properties
-- SeaLevelAirDensity [ $\rho_0$ ] = 1.225 kg/m³
-- SeaLevelAirPressure [ $P_0$ ] = 101.325 kPa
-- SeaLevelAirTemperature [ $T_0$ ] = 15 °C
-- AirAdiabaticIndex [ $\gamma$ ] = 1.4
-- AtmosphereHeight [ $h_0$ ] = 30 km
-- AirMolarMass [ $M_\text{air}$ ] = 28.97 g/mol
-- GravitationalPull [ $g$ ] = 9.81 m/s²
+- ### Atmosphere properties
+  - SeaLevelAirDensity [ $\rho_0$ ] = 1.225 kg/m³
+  - SeaLevelAirPressure [ $P_0$ ] = 101.325 kPa
+  - SeaLevelAirTemperature [ $T_0$ ] = 15 °C
+  - AirAdiabaticIndex [ $\gamma$ ] = 1.4
+  - AtmosphereHeight [ $h_0$ ] = 30 km
+  - AirMolarMass [ $M_\text{air}$ ] = 28.97 g/mol
+  - GravitationalPull [ $g$ ] = 9.81 m/s²
 
 
 
@@ -105,3 +105,23 @@ If you encounter any bugs or issues, please report them on the [Issues page](htt
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
+
+
+
+- Item 1
+- Item 2
+
+
+* Item 1
+* Item 2
+
++ Item 1
++ Item 2
+
+&#9670; Item 1
+&#9670; Item 2
+
+<ul style="list-style-type:none;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
