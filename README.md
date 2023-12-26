@@ -5,10 +5,10 @@ A Python project that simulates the bird in the at
 ## Demonstrations
 
 ### Single Boid Simulation
-![Single Boid Simulation](amt/singleboid.mp4)
+![Single Boid Simulation](./amt/singleboid.gif)
 
 ### Many Boids Simulation
-![Many Boids Simulation](amt/manyboids.mp4)
+![Many Boids Simulation](./amt/manyboids.mp4)
 
 ## Files Structure
 

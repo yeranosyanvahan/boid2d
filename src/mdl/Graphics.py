@@ -1,20 +1,22 @@
 import os
 import math
 import pygame
-from moviepy.editor import VideoClip
+from moviepy.editor import VideoClip, ImageSequenceClip
 import numpy as np
         
 class Graphics:
-
-        
+           
     def save_on_quit(self, filename, fps=30):
         self.save = True
 
-        def save_video(self):
-            clip = VideoClip(lambda t: self.frames[int(t*fps)], duration=len(self.frames)/fps)
-            clip.write_videofile(filename, fps=fps)
+        def save_recording(self):
+            with VideoClip(lambda t: self.frames[int(t*fps)], duration=len(self.frames) // fps) as clip:
+                if filename.endswith('.gif'):
+                    clip.write_gif(filename, fps=30)
+                else:
+                    clip.write_videofile(filename, fps=fps)
         
-        self.save_video = save_video
+        self.save_recording = save_recording
         self.frames = []
 
 
@@ -79,7 +81,7 @@ class Graphics:
     
     def quit(self):
         if self.save:
-            self.save_video(self)
+            self.save_recording(self)
         pygame.quit()        
     
     def get_frame(self):
