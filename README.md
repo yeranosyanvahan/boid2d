@@ -70,22 +70,24 @@ where:
 - $\gamma$ is the adiabatic index.
 
 
-## Constants in the simulation
+## Constants and Properties in the Simulation
 
-    LTDRatio = 15
-    DragArea = 50 # cm^2
-    Mass = 1 # kg
-    FlapEnergy = 10 # J
-    MaxFlapsPerSecond = 3 # Maximum flap per second
+### Boid properties
+- LTDRatio [$R_{\text{LTD}}$] = 15
+- DragArea [$A_{\text{drag}}$] = 50 cm²
+- Mass [$m$] = 1 kg
+- FlapEnergy [$E_{\text{flap}}$] = 10 J
+- MaxFlapsPerSecond = 3 
 
-    SeaLevelAirDensity = 1.225 # kg/m^3
-    SeaLevelAirPressure = 101.325 # kPa
-    SeaLevelAirTemperature = 15 # °C
+### Atmosphere properties
+- SeaLevelAirDensity [$\rho_0$] = 1.225 kg/m³
+- SeaLevelAirPressure [$P_0$] = 101.325 kPa
+- SeaLevelAirTemperature [$T_0$] = 15 °C
+- AirAdiabaticIndex [$\gamma$] = 1.4
+- AtmosphereHeight [$h_0$] = 30 km
+- AirMolarMass [$M_\text{air}$] = 28.97 g/mol
+- GravitationalPull [$g$] = 9.81 m/s²
 
-    AirAdiabaticIndex ( $ \gamma $ ) = 1.4
-    AtmosphereHeight = 30 # km
-    AirMolarMass = 28.97 # g/mol
-    GravitationalPull =  9.81 # m/s^2
 
 
 ## Contributing
