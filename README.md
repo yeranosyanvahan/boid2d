@@ -104,24 +104,3 @@ If you encounter any bugs or issues, please report them on the [Issues page](htt
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-
-- Item 1
-- Item 2
-
-
-* Item 1
-* Item 2
-
-+ Item 1
-+ Item 2
-
-&#9670; Item 1
-&#9670; Item 2
-
-<ul style="list-style-type:none;">
-  <li>Item 1</li>
-  <li>Item 2</li>
-</ul>
