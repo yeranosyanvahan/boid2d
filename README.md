@@ -59,15 +59,15 @@ $$ P(h) = P_0 \left(1 - \frac{h}{h_0}\right)^{\frac{\gamma}{\gamma - 1}} $$
 $$ \rho(h) = \rho_0 \left(1 - \frac{h}{h_0}\right)^{\frac{1}{\gamma - 1}} $$
 
 where:
-- $ T(h) $ is the temperature at height $ h $,
-- $ P(h) $ is the pressure at height $ h $,
-- $ \rho(h) $ is the mass density at height $ h $,
-- $ T_0 $ is the sea level air temperature,
-- $ P_0 $ is the sea level air pressure,
-- $ \rho_0 $ is the sea level air mass density,
-- $ h $ is the altitude,
-- $ h_0 $ is the height of the atmosphere, and
-- $ \gamma $ is the adiabatic index.
+- $T(h)$ is the temperature at height $h$,
+- $P(h)$ is the pressure at height $h$,
+- $\rho(h)$ is the mass density at height $h$,
+- $T_0$ is the sea level air temperature,
+- $P_0$ is the sea level air pressure,
+- $\rho_0$ is the sea level air mass density,
+- $h$ is the altitude,
+- $h_0$ is the height of the atmosphere, and
+- $\gamma$ is the adiabatic index.
 
 
 ## Constants in the simulation
