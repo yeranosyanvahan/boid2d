@@ -5,6 +5,34 @@ from moviepy.editor import VideoClip, ImageSequenceClip
 import numpy as np
         
 class Graphics:
+
+    def draw_scale_indicator(self, PixelToMeter, npixels=50):
+        # Convert npixels to meters for the label
+        meters = npixels / PixelToMeter
+
+        start_x = self.width - npixels - 20  # 20 pixels padding from the right
+        start_y = self.height - 20  # 20 pixels padding from the bottom
+        end_x = start_x + npixels
+        end_y = start_y
+
+        # Draw the scale line
+        pygame.draw.line(self.screen, (0, 0, 0), (start_x, start_y), (end_x, end_y), 2)
+
+        # Draw ticks at each end of the line
+        tick_length = 5
+        pygame.draw.line(self.screen, (0, 0, 0), (start_x, start_y - tick_length), (start_x, start_y + tick_length), 2)
+        pygame.draw.line(self.screen, (0, 0, 0), (end_x, start_y - tick_length), (end_x, start_y + tick_length), 2)
+
+        # Draw the scale text
+        scale_text = f"{int(meters)} m"
+        fontsize = 24
+        font = pygame.font.SysFont(None, fontsize)
+        text = font.render(scale_text, True, (0, 0, 0))
+        
+        # Adjusted positioning: Placing the text above the scale line
+        text_x = start_x + (npixels - text.get_width()) / 2
+        text_y = start_y - fontsize
+        self.screen.blit(text, (text_x, text_y))
            
     def save_on_quit(self, filename, fps=30):
         self.save = True
