@@ -68,7 +68,9 @@ In studying the behavior of the atmosphere at different altitudes, several key e
 
 
 $$ T(h) = T_0 \left(1 - \frac{h}{h_0}\right) $$
+
 $$ P(h) = P_0 \left(1 - \frac{h}{h_0}\right)^{\frac{\gamma}{\gamma - 1}} $$
+
 $$ \rho(h) = \rho_0 \left(1 - \frac{h}{h_0}\right)^{\frac{1}{\gamma - 1}} $$
 
 where:
