@@ -88,7 +88,7 @@ where:
 ## Constants and Properties in the Simulation
 
 - ### Boid properties
-  - LTDRatio [ $R_{\text{LTD}}$ ] = 15
+  - LTDRatio [ $R_{\text{LTD}}$ ] = 15 (can be approximated by the glide ratio)
   - DragArea [ $A_{\text{drag}}$ ] = 50 cm²
   - Mass [ $m$ ] = 1 kg
   - FlapEnergy [ $E_{\text{flap}}$ ] = 10 J
